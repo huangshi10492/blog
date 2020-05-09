@@ -59,12 +59,12 @@ appearance:
   highlight:
 
   # Default Light by Chris Kempson (http://chriskempson.com)
-  # highlight: [
-  #   '#f8f8f8', '#e8e8e8', '#d8d8d8', '#b8b8b8',
-  #   '#585858', '#383838', '#282828', '#181818',
-  #   '#ab4642', '#dc9656', '#f7ca88', '#a1b56c',
-  #   '#86c1b9', '#7cafc2', '#ba8baf', '#a16946'
-  # ]
+   highlight: [
+    '#f8f8f8', '#e8e8e8', '#d8d8d8', '#b8b8b8',
+    '#585858', '#383838', '#282828', '#181818',
+    '#ab4642', '#dc9656', '#f7ca88', '#a1b56c',
+    '#86c1b9', '#7cafc2', '#ba8baf', '#a16946'
+   ]
 
   # Harmonic16 Light by Jannik Siebert (https://github.com/janniks)
   # highlight: [
@@ -86,19 +86,19 @@ appearance:
 profile:
   # `email` is used for gravatar(https://en.gravatar.com),
   # fallback to `hexo.config.email` if not specified
-  email:
+  email: hsh10492@gmail.com
 
   # You can set Avatar URL directly
   # avatar:
 
-  bio: Awesome guy.
+  bio: 
 
 # Sidebar navigation links
 menu:
-  Home: /
-  # About: /about
-  # Links: /links
-  # Github: https://github.com/username
+  主页: /
+  关于: /about
+  搜索: /search
+  Github: https://github.com/h
 
 # Social media URL
 # Try to sort by changing the order of the keys
@@ -130,10 +130,10 @@ footer:
   # copyright: '&copy; 2019 • <a href="">John Doe</a>'
 
   # Set to false to hide Hexo link.
-  # powered: false
+   powered: false
 
   # Set to false to hide theme link.
-  # theme: false
+   theme: false
 
   # Custom text.
   # custom: Hosted by <a target="_blank" rel="external nofollow"
@@ -150,10 +150,10 @@ page:
   # toc: false
 
   # Display reward, default to `false`
-  # reward: true
+   reward: true
 
   # Display copyright notice, default to `false`
-  # copyright: true
+   copyright: true
 
 
 # Post
@@ -180,16 +180,16 @@ category:
 # Search
 search:
   # Display a quick search button in fab
-  # fab: true
+   fab: true
 
   # Render a standalone searh page which can be configured in sidebar menu such as `Search: /search`
-  # page: true
+   page: true
 
   # Local search
-  # adapter:
-  #   range:
-  #     - post
-  #     - page
+   adapter:
+     range:
+       - post
+       - page
   #   per_page: 20
   #   limit: 10000
 
@@ -264,7 +264,7 @@ reward:
 # It is possible to use front matter `copyright` to override this setting.
 copyright:
   # Display author, default to `true`
-  # author: true
+   author: true
 
   # Display link, default to `true`
   # link: false
@@ -285,6 +285,20 @@ copyright:
 # Comments
 # Built-in support Disqus (https://disqus.com) and LiveRe (https://livere.com),
 # for other comment system, see plugins
+plugins:
+  - //cdn1.lncld.net/static/js/3.0.4/av-min.js
+  - //unpkg.com/valine/dist/Valine.min.js
+  - position: comments
+    template: |
+      <div id="vcomment"></div>
+      <script>
+        new Valine({
+          el: '#vcomment',
+          appId: 'An1nglBzYHCM4ADFHKKTfY82-gzGzoHsz',
+          appKey: 'yy8MuDwtW6ExaOCWswzCNyCR',
+          path: location.pathname
+        })
+      </script>
 comments:
   # disqus:
   #   shortname: disqus_shortname
@@ -320,12 +334,12 @@ data_dir:
 favicon:
 
 # Google analytics
-# ga: UA-00000000-0
+ ga: UA-166008577-1
 
 # SEO
 seo:
   # Render structured-data in <head>, default to `false`
-  # structured_data: true
+   structured_data: true
 
 # PWA
 pwa:
