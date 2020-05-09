@@ -17,6 +17,8 @@ before_install:
 install:
   - npm install # 安装依赖
   - npm install hexo-generator-search
+  - npm install hexo-generator-sitemap
+  - npm install hexo-generator-baidu-sitemap
   - cd themes/obsidian
   - npm i --save
   - cd ..
