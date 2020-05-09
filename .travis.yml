@@ -19,7 +19,7 @@ install:
   - npm install hexo-generator-search
   - npm install hexo-generator-sitemap
   - npm install hexo-generator-baidu-sitemap
-  - cd themes/Butterfly
+  - cd themes/raytaylorism
   - npm i --save
   - cd ..
   - cd ..
