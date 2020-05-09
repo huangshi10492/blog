@@ -45,7 +45,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -99,3 +99,7 @@ theme: obsidian
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+search:
+  path: search.xml
+  field: post
+  content: true

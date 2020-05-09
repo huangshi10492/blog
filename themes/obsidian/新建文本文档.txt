@@ -1,1 +1,0 @@
-cd themes\obsidian && npm i --save
