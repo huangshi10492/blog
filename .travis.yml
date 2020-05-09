@@ -15,7 +15,8 @@ before_install:
 
 install:
   - npm install # 安装依赖
-  - cd themes\hexo-material && npm i --save
+  - cd themes\hexo-material
+  - npm i --save
   - cd ..
 
 script: # 执行脚本，清除缓存，生成静态文件
