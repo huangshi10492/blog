@@ -40,16 +40,16 @@ version: "1.4.3"
 
 # Menu setting | format = title_name: link_url
 menu:
-  ABOUT: /whoami
-  CATEGORIES: /categories
-  TAGS: /tags
-  ARCHIVES: /archives
+  关于: /whoami
+  标签: /tags
+  分类: /categories
+  归档: /archives
 
 # Page custom titles
 page_titles:
-  categories: "Categories"
-  tags: "Tags"
-  archives: "Archived"
+  分类: "分类"
+  标签: "标签"
+  归档: "归档"
 
 # Social media links
 socials:
