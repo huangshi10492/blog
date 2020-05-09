@@ -12,14 +12,30 @@
     "version": "4.2.0"
   },
   "dependencies": {
-    "hexo": "^4.0.0",
+    "css-select": "^2.1.0",
+    "dom-serializer": "^0.2.2",
+    "hexo": "^4.2.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
+    "hexo-generator-search": "^2.4.0",
     "hexo-generator-tag": "^1.0.0",
+    "hexo-material": "^1.5.0",
     "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
     "hexo-renderer-marked": "^2.0.0",
-    "hexo-server": "^1.0.0"
+    "hexo-renderer-pug": "^1.0.0",
+    "hexo-renderer-stylus": "^1.1.0",
+    "hexo-server": "^1.0.0",
+    "htmlparser2": "^4.1.0",
+    "lodash": "^4.17.15",
+    "lodash.assignin": "^4.2.0",
+    "lodash.bind": "^4.2.1",
+    "lodash.defaults": "^4.2.0",
+    "lodash.foreach": "^4.5.0",
+    "lodash.map": "^4.6.0",
+    "lodash.merge": "^4.6.2",
+    "lodash.pick": "^4.4.0",
+    "markdown-it": "^10.0.0",
+    "markdown-it-container": "^2.0.0"
   }
 }
