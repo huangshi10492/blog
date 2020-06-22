@@ -16,7 +16,8 @@ before_install:
 
 install:
   - npm install # 安装依赖
-  - npm install hexo-generator-search
+  - npm i -S hexo-generator-search hexo-generator-json-content
+  - npm i -S hexo-renderer-stylus
   - npm install hexo-generator-sitemap
   - npm install hexo-generator-baidu-sitemap
   - cd themes/volantis-pjax
