@@ -20,7 +20,7 @@ install:
   - npm i -S hexo-renderer-stylus
   - npm install hexo-generator-sitemap
   - npm install hexo-generator-baidu-sitemap
-  - cd themes/volantis-pjax
+  - cd themes/volantis
   - npm i --save
   - cd ..
   - cd ..
