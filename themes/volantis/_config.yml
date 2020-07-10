@@ -10,11 +10,11 @@ style:
   navbar:
     height: 64px
     width: auto # auto, max
-    effect: [shadow, blur] # [shadow, floatable, blur]
+    effect: [shadow, floatable, blur] # [shadow, floatable, blur]
   sidebar:
     effect: [shadow] # [shadow, floatable, blur]
   body:
-    effect: [shadow] # [shadow, floatable, blur]
+    effect: [shadow, blur] # [shadow, floatable, blur]
     highlight:
       language: true # show language of codeblock
       copy_btn: true
@@ -101,27 +101,24 @@ cover:
     archive: true
     others: false # can be written in front-matter 'cover: true'
   logo: # https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/256/google_logo.png
-  title: Volantis
-  subtitle: 'A Wonderful Theme for Hexo'
+  title: 
+  subtitle: 
   search: # search bar placeholder
-  features:
-    - name: 文档
-      icon: fas fa-book
-      url: https://volantis.js.org/getting-started/
-    - name: 博文
-      icon: fas fa-rss
-      url: https://volantis.js.org/archives/
-    - name: 示例
-      icon: fas fa-play-circle
-      url: https://volantis.js.org/examples/
-    - name: 源码
-      icon: fas fa-file-code
-      url: https://github.com/xaoxuu/hexo-theme-volantis/
-      rel: external nofollow noopener noreferrer
-      target: _blank
-    - name: 鸣谢
-      icon: fas fa-handshake
-      url: https://volantis.js.org/contributors/
+  # features:
+    # - name: 博文
+    #  icon: fas fa-rss
+    #  url: https://volantis.js.org/archives/
+   # - name: 示例
+   #   icon: fas fa-play-circle
+   #   url: https://volantis.js.org/examples/
+   # - name: 源码
+    #  icon: fas fa-file-code
+   #   url: https://github.com/xaoxuu/hexo-theme-volantis/
+   #   rel: external nofollow noopener noreferrer
+  #    target: _blank
+  #  - name: 鸣谢
+   #   icon: fas fa-handshake
+   #   url: https://volantis.js.org/contributors/
 
 
 # Navigation Bar
