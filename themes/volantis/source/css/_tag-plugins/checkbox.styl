@@ -1,7 +1,12 @@
-article .checkbox
+.md .checkbox
   display: flex
   align-items: center
+  margin-top: $gap-p
+  margin-bottom: $gap-p
+  &+.checkbox
+    margin-top: 0 - $gap-p
   input
+    transform: translate(0, -1px)
     -webkit-appearance: none
     -moz-appearance: none
     -ms-appearance: none
@@ -10,14 +15,14 @@ article .checkbox
     position: relative
     height: 16px
     width: 16px
-    transition:all .15s ease-out 0s
+    transition: all .15s ease-out 0s
     cursor: pointer
     display: inline-block
     outline: none
     border-radius: 2px
     flex-shrink: 0
     margin-right: 8px
-    if hexo-config('style.body.checkbox.enable') != true
+    if hexo-config('tag_plugins.checkbox.interactive') != true
       pointer-events: none
   /* Checkbox */
   input[type=checkbox]
@@ -147,7 +152,7 @@ article .checkbox
       transform: scale(1)
   /* Colors */
   input
-    $c = convert(hexo-config('style.body.checkbox.color')) || $color-theme
+    $c = convert(hexo-config('tag_plugins.checkbox.color')) || $color-theme
     border: 2px solid $c
     &[type=checkbox]:checked
       background: $c
@@ -187,5 +192,5 @@ article .checkbox
 article .checkbox
   p
     display: inline-block
-    margin-top: 2px !important
+    margin-top: 0 !important
     margin-bottom: 0 !important
