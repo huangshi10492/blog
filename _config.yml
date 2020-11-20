@@ -110,5 +110,5 @@ baidusitemap:
 
 deploy:
 - type: git
-  repo: git@github.com:blog.git # 使用仓库的ssh地址
+  repo: git@github.com:huangshi10492/blog.git # 使用仓库的ssh地址
   branch: master
