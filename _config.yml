@@ -112,5 +112,5 @@ baidusitemap:
 
 deploy:
 - type: git
-- repo: git@github.com:huangshi10492/blog.git
-- branch: master
+repo: git@github.com:huangshi10492/blog.git
+branch: master
