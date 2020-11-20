@@ -109,3 +109,8 @@ sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
+
+deploy:
+  type: git
+  repo: git@github.com:huangshi10492/blog.git
+  branch: master
