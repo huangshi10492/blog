@@ -9,12 +9,13 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "4.2.1"
   },
   "dependencies": {
     "css-select": "^2.1.0",
     "dom-serializer": "^0.2.2",
-    "hexo": "^4.2.0",
+    "hexo": "^4.2.1",
+    "hexo-cli": "^4.2.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.6",
     "hexo-generator-category": "^1.0.0",
