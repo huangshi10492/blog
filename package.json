@@ -9,28 +9,31 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "4.2.0"
+    "version": "5.2.0"
   },
   "dependencies": {
-    "css-select": "^2.1.0",
-    "dom-serializer": "^0.2.2",
-    "hexo": "^4.2.1",
+    "css-select": "^3.1.0",
+    "dom-serializer": "^1.1.0",
+    "hexo": "^5.2.0",
     "hexo-cli": "^4.2.0",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-baidu-sitemap": "^0.1.6",
+    "hexo-generator-baidu-sitemap": "^0.1.9",
     "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^1.0.0",
-    "hexo-generator-search": "^2.4.0",
-    "hexo-generator-sitemap": "^2.0.0",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-json-content": "^4.2.3",
+    "hexo-generator-search": "^2.4.1",
+    "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
+    "hexo-helper-qrcode": "^1.0.2",
+    "hexo-related-popular-posts": "^5.0.1",
     "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^2.0.0",
+    "hexo-renderer-marked": "^3.3.0",
     "hexo-renderer-pug": "^1.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0",
-    "htmlparser2": "^4.1.0",
-    "lodash": "^4.17.19",
+    "hexo-renderer-stylus": "^2.0.1",
+    "hexo-server": "^2.0.0",
+    "htmlparser2": "^5.0.1",
+    "lodash": "^4.17.20",
     "lodash.assignin": "^4.2.0",
     "lodash.bind": "^4.2.1",
     "lodash.defaults": "^4.2.0",
@@ -38,7 +41,7 @@
     "lodash.map": "^4.6.0",
     "lodash.merge": "^4.6.2",
     "lodash.pick": "^4.4.0",
-    "markdown-it": "^10.0.0",
-    "markdown-it-container": "^2.0.0"
+    "markdown-it": "^12.0.2",
+    "markdown-it-container": "^3.0.0"
   }
 }

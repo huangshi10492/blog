@@ -19,9 +19,9 @@ info:
 navbar:
   visiable: auto # always, auto
   logo: # choose [img] or [icon + title]
-    img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+    img: #https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
     icon:
-    title:
+    title: 
   menu:
     - name: 博客
       icon: fas fa-rss
@@ -35,9 +35,9 @@ navbar:
     - name: 归档
       icon: fas fa-archive
       url: archives/
-    - name: 友链
+    - name: 网盘
       icon: fas fa-link
-      url: friends/
+      url: http://pan.huangshi.ga
     - name: 关于
       icon: fas fa-info-circle
       url: about/
@@ -47,7 +47,7 @@ navbar:
 
 ############################### Cover ############################### > start
 cover:
-  height_scheme: full # full, half
+  height_scheme: half # full, half
   layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
@@ -55,7 +55,7 @@ cover:
     others: false # can be written in front-matter 'cover: true'
   background: https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
-  title: 'Volantis'
+  title: '黄式的小破站'
   subtitle: ''
   search: A Wonderful Theme for Hexo # search bar placeholder
   features:
@@ -147,7 +147,7 @@ article:
       # ----------------
       # 打赏组件 (for layout: post)
       donate:
-        enable: false
+        enable: ture
         images:
           - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
           - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
@@ -159,7 +159,7 @@ article:
       # 默认文章作者（可在 front-matter 中覆盖）
       author:
         avatar:
-        name: 请设置文章作者
+        name: 黄式
         url: /
       # 文章创建日期
       date:
@@ -197,8 +197,8 @@ article:
           img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
         - id: weibo
           img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
-        - id: # qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
-          img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
+        - id:  qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
+          img:  https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
         - id: # telegram
           img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
 ############################### Article Layout ############################### > end
@@ -208,7 +208,7 @@ article:
 comments:
   title: <i class='fas fa-comments'></i> 评论
   subtitle:
-  service: valine # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
+  service: gitalk # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
   # Valine
   # https://valine.js.org/
   valine:
@@ -285,12 +285,13 @@ comments:
   # Gitalk
   # https://gitalk.github.io/
   gitalk:
-    clientID:
-    clientSecret:
-    repo:
-    owner:
-    admin: # []
+    clientID: 26f6b5d73d7b67dabe17
+    clientSecret: af1b5b82aed7e1b68e5a418095c95dc4873bd6c1
+    repo: blog
+    owner: huangshi10492
+    admin: [huangshi10492]
     path: # 全局评论地址
+    number: 3
   # Vssue
   # https://vssue.js.org/zh/
   vssue:
@@ -325,22 +326,22 @@ sidebar:
     # blogger info widget
     blogger:
       class: blogger
-      display: [desktop, mobile] # [desktop, mobile]
-      avatar: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+      display: [desktop] # [desktop, mobile]
+      avatar: https://avatars3.githubusercontent.com/u/42275197?s=460&u=741bbc34b6305b3ba9c2efd41518d7f71b84a075&v=4
       shape: rectangle # circle, rectangle
       url: /about/
       title:
       subtitle:
-      jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      jinrishici: "加载失败了QAQ" # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
         - icon: fas fa-rss
           url: /atom.xml
         - icon: fas fa-envelope
-          url: mailto:me@xxx.com
+          url: mailto:huangshi10492@gmail.com
         - icon: fab fa-github
-          url: https://github.com/volantis-x/
-        - icon: fas fa-headphones-alt
-          url: /
+          url: https://github.com/huangshi10492/
+        #- icon: fas fa-headphones-alt
+          #url: /
     # ---------------------------------------
     # toc widget (valid only in articles)
     toc:
@@ -383,8 +384,8 @@ sidebar:
       display: [desktop, mobile] # [desktop, mobile]
       height: 64px  # Automatic height if not set
       images:
-        - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
-        - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+        #- https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+        #- https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
     # ---------------------------------------
     # webinfo widget
     webinfo:
@@ -400,7 +401,7 @@ sidebar:
           unit: '篇'
         runtime:
           enable: true
-          data: '2020/01/01'    # 填写建站日期
+          data: '2020/05/08'    # 填写建站日期
           text: '已运行时间：'
           unit: '天'
         wordcount:
@@ -446,7 +447,7 @@ tag_plugins:
 ############################### Site Footer ############################### > start
 site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [aplayer, social, license, analytics, info, copyright]
+  layout: [social, license, analytics, info, copyright]
   social:
     - icon: #fas fa-rss
       url:
@@ -643,7 +644,7 @@ plugins:
 ############################### Rightmenu ############################### > start
 # 自定义右键菜单
 rightmenu:
-  enable: true
+  enable: #true
   # hr: 分割线, music: 音乐控制器
   layout: [home, help, examples, contributors, hr, source_docs, source_theme, hr, print, hr, music]
   # 可选功能项
