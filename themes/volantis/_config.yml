@@ -796,14 +796,12 @@ color_scheme:
 custom_css:
   toc_smooth: true # TOC 目录平滑滚动效果
   cursor:
-    enable: true
-    text: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/text.png
-    pointer: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png
-    default: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png
-    not-allowed: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/circle.png
-    zoom-out: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-out.png
-    zoom-in: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-in.png
-    grab: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/openhand.png
+    enable: #true
+    text: https://huangshi10492.github.io/public-library/cursor/Text-Select1.png
+    pointer: https://huangshi10492.github.io/public-library/cursor/Link-Select1.png
+    default: https://huangshi10492.github.io/public-library/cursor/Mouse-Pointer2.png
+    not-allowed: https://huangshi10492.github.io/public-library/cursor/Unavailable2.png
+    grab: https://huangshi10492.github.io/public-library/cursor/Drag-Hand1.png
   font_smoothing: true # font-smoothing for webkit
   max_width: 1080px # Sum of body width and sidebar width (This limit will be exceeded when the device width is greater than 2000px, reaching 75% of the total width)
   scrollbar:
